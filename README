@@ -1,0 +1,3 @@
+Name of the frontend: serverapp, to start in vs code go into the app:
+cd serverapp --> code . --> opens **vscode**
+FE uses reactive approach
