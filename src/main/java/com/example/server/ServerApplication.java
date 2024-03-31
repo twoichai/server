@@ -19,9 +19,9 @@ public class ServerApplication {
 	CommandLineRunner run(ServerRepo serverRepo){
 		return args -> {
 			serverRepo.save(new Server(null, "192.168.1.160", "Ubuntu Linux", "16 GB", "Personal PC",
-					"http://localhost8080/server/images/server1.png", Status.SERVER_UP));
+					"http://localhost:8070/server/image/server1.png", Status.SERVER_UP));
 			serverRepo.save(new Server(null, "192.168.1.169", "Windows NT", "8 GB", "Server",
-					"http://localhost8080/server/images/server2.png", Status.SERVER_UP));
+					"http://localhost:8070/server/image/server2.png", Status.SERVER_UP));
 		};
 	}
 
